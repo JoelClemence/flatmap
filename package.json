@@ -1,0 +1,32 @@
+{
+  "name": "flatmap",
+  "version": "0.0.1",
+  "description": "Flat map for arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "config": {
+    "jest": {
+        "collectCoverage": true,
+        "coverageFormats": [
+            "json",
+            "html"
+        ]
+    }
+  },
+  "keywords": [
+    "flatmap",
+    "array",
+    "javascript"
+  ],
+  "author": "Joel Clemence",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "23.1.0"
+  },
+  "repository": {
+      "type: "git",
+      "url": "https://github.com/JoelClemence/flatmap.git"
+  }
+}
