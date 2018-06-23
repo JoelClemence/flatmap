@@ -1,6 +1,6 @@
 {
   "name": "flatmap",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Flat map for arrays",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,11 @@
   },
   "config": {
     "jest": {
-        "collectCoverage": true,
-        "coverageFormats": [
-            "json",
-            "html"
-        ]
+      "collectCoverage": true,
+      "coverageFormats": [
+        "json",
+        "html"
+      ]
     }
   },
   "keywords": [
@@ -26,7 +26,7 @@
     "jest": "23.1.0"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/JoelClemence/flatmap.git"
+    "type": "git",
+    "url": "https://github.com/JoelClemence/flatmap.git"
   }
 }
