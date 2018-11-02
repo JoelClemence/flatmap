@@ -13,7 +13,7 @@ const flatten = (array, mappingFunc) => {
     const a = [];
 
     const reducingFunction = (prev, curr) => {
-        if (mappingFunc !== undefined && typeof mappingFunc === function) {
+        if (mappingFunc !== undefined && typeof mappingFunc === 'function') {
             curr = mappingFunc(curr);
         }
 
